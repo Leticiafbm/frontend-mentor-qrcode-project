@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet"> 
+
+
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+
+    body {
+
+      font-family: outfit;
+      background-color: #ced7e9;
+      font-size: 15px;
+
+    }
+
+    .txt-1, .txt-2 {
+
+      margin: 0px;
+
+    }
+
+    .container {
+
+      display: block;
+      width: 320px;
+      height: 460px;
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+      background-color: #FFF;
+      border-radius: 15px;
+
+    }
+
+    .qrcode {
+
+      width: 280px;
+      height: 280px;
+      object-fit: cointain;
+      border-radius: 8px;
+      margin: 20px 0px 15px 20px;
+
+    }
+
+    .txt-1 {
+
+      font-weight: 700;
+      margin: 3px 0px 15px 35px;
+      width: 250px;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+
+    }
+
+    .txt-2 {
+
+      width: 250px;
+      margin: 0px 0px 15px 35px;
+      color: #91919c;
+      text-align: center;
+      font-weight: 400;
+
+    }
+
+    .box {
+
+      display: flex;
+      justify-content: center;
+      margin-top: 250px;
+
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div class="box">
+  
+  <div class="container">
+
+    <div img-box>
+
+      <img class="qrcode" src="images/image-qr-code.png" alt="qr-code">
+
+    </div>
+
+    
+    <p class="txt-1">
+      Improve your front-end skills by building projects
+    </p>
+
+    <p class="txt-2">
+      Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+    </p>
+  
+
+  </div>
+</div>
+</body>
+</html>
